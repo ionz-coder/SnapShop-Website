@@ -196,7 +196,7 @@ class AccountManager {
     constructor() {
         this.currentUser = this.getCurrentUser();
         this.users = this.getUsers();
-        this.adminUsers = ['admin@mitl.edu', 'test@mitl.edu', 'avah821@yahoo.com']; // Add admin emails here
+        this.adminUsers = ['admin@mitl.edu', 'test@mitl.edu', 'avah821@yahoo.com','rodgiesan@gmail.com']; // Add admin emails here
     }
 
     getUsers() {
@@ -1311,4 +1311,5 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     }
+
 });
